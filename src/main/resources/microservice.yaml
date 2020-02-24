@@ -5,6 +5,18 @@ service_description:
 servicecomb:
   service:
     registry:
-      address: http://127.0.0.1:30100
+      address: https://cse.cn-north-1.myhuaweicloud.com:443
+      instance:
+        watch: false
+  config:
+    client:
+      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+      refreshMode: 1
+      refresh_interval: 5000
   rest:
     address: 0.0.0.0:8080
+  credentials:
+    accessKey: your_ak
+    secretKey: your_sk
+    project: cn-north-1
+    akskCustomCipher: default
