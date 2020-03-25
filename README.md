@@ -12,6 +12,8 @@ Apache ServiceComb Java Chassis 是一个开源的Java微服务开发框架，�
 
 ## 本地开发Java-Chassis微服务
 
+> 增加 maven setting 配置方法   http://liubao68.gitee.io/servicecomb-java-chassis-doc/java-chassis/zh_CN/start/development-environment/#maven
+
 请参考Java-Chassis的[开源资料](https://docs.servicecomb.io/java-chassis/zh_CN/start/first-sample/)完成demo开发。完成本地开发后，只需引入少量配置修改即可使用ServiceStage进行部署、托管和运维。
 
 ## 修改配置对接ServiceStage
@@ -70,6 +72,8 @@ CSE Java SDK 100% 兼容 [ServiceComb Java Chassis](https://github.com/apache/se
 
 ### 准备工作
 经过上述修改后，Java-Chassis微服务已经可以对接到ServiceStage了。但要在云上部署仍需要进行一些准备工作。
+
+> 修改这部分的描述，改为使用SpringBoot插件打fat jar
 
 1. 将微服务打包成可执行jar包
 
